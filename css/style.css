@@ -490,7 +490,7 @@ h4 {
   margin-bottom: 48px;
 }
 .iconsBlock span {
-  font-size: 4em;
+  font-size: 2em;
 }
 .iconTitle {
   padding: 37px 0 15px;
@@ -504,6 +504,13 @@ h4 {
   width: 100%;
   font-size: 1em;
   line-height: 24px;
+}
+.features{
+  margin: 25px 0;
+}
+
+div .thumbnail{
+  height:350px;
 }
 
 /*Slider with tablet border*/
@@ -2096,7 +2103,7 @@ li.vk {
   margin: 40px 0;
   margin-right: 30px;
   padding-left: 145px;
-  background: url(../img/logos/logo_small.png) no-repeat 0 23px;
+  background: url(../img/logos/Helios_logo_coin.png) no-repeat 0 23px;
   -webkit-background-size: 16% 16%;
   -o-background-size: 16%;
   background-size: 16%;
