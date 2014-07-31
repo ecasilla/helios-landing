@@ -1,0 +1,179 @@
+::-moz-selection {
+  background: #33363a;
+  color: #fff;
+}
+::selection {
+  background: #33363a;
+  color: #fff;
+}
+::-moz-selection {
+  background: #33363a;
+  color: #fff;
+}
+html {
+  font-size: 100%;
+  font-size: 16px;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+.wrapper {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 2560px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.nav:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: "";
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.logo a {
+  font-size: 60px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.logo img {
+  max-width: 68px;
+  position: relative;
+  top: -10px;
+}
+
+
+/* Content
+-----------------------------------------------------------------------------*/
+
+.content {
+  text-align: center;
+}
+.content h2 {
+  font-size: 48px;
+  color: #000;
+  font-weight: 600;
+}
+.content h3 {
+  font-size: 30px;
+  color: #345e9e;
+  font-weight: 400;
+}
+
+/*Feature block*/
+
+.themesGrid {
+  margin-top: 60px;
+}
+.themeItemBlock {
+  padding: 0 0 20px;
+}
+.themeItemBlock a:hover img {
+  opacity: 0.7;
+}
+.themeItemBlock img {
+  width: 100%;
+  border: 1px solid #ccc;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.themeItemBlock i {
+  float: right;
+  font-size: 2.7em;
+  padding: 9px 5px 0 0;
+}
+.themeItem {
+  overflow: hidden;
+}
+.itemTitle {
+  float: left;
+  text-align: left;
+}
+.itemTitle h6 {
+  font-size: 1.1em;
+}
+.itemTitle span {
+  font-size: 1em;
+  color: #0073b2;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+  margin: 40px 0;
+}
+footer span, footer img, footer b {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #323232;
+  font-size: 30px;
+}
+footer b {
+  font-weight: 600;
+}
+
+
+
+
+
+/*Adaptive styles*/
+
+@media screen and (max-width: 1199px) {
+  .themeItem i {
+    font-size: 2.5em;
+  }
+  .itemTitle h6 {
+  font-size: 1em;
+  }
+  .itemTitle span {
+    font-size: 0.9em;
+    color: #0073b2;
+  }
+}
+@media screen and (max-width: 670px) {
+  .themeItem i {
+    font-size: 2em;
+  }
+  .itemTitle h6 {
+  font-size: 0.9em;
+  }
+  .itemTitle span {
+    font-size: 0.8em;
+    color: #0073b2;
+  }
+}
+@media screen and (max-width: 670px) {
+  .themeItem i {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .col-xs-6 {
+    float: none;
+    width: 100%;
+  }
+  .themeItem i {
+    display: block;
+    padding: 14px 11px 0 0
+  }
+}
+
+
+
