@@ -1,4 +1,4 @@
-    /*
+   /*
      *Domino HTML5 Template v1.0
      *Copyright 2014 8Guild.com
      *All scripts for Domino HTML5 One Page Template
@@ -403,6 +403,7 @@ jQuery(document).ready(function($) {
             init: init
         };
     }(jQuery));
+
 
 
 
