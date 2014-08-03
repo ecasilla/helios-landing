@@ -104,3 +104,7 @@ erl_crash.dump
 
 .meteor/local
 .meteor/meteorite
+History.md
+node_modules/compression
+node_modules/express
+node_modules/serve-static
