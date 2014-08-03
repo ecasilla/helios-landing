@@ -108,3 +108,4 @@ History.md
 node_modules/compression
 node_modules/express
 node_modules/serve-static
+node_modules/morgan
