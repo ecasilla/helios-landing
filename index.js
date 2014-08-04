@@ -4,8 +4,8 @@ var app = require('express')(),
 
   app.use(require('compression')());
   app.use(morgan('combined'))
-  app.use(require('serve-static')('public/'));
-
+  app.use(express.static(__dirname + '/public'));
+  app.disable('x-powered-by');
   app.listen(port, function() {
     console.log('Server listening on localhost:'+port);
 });
