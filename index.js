@@ -1,5 +1,6 @@
-var app = require('express')(),
+var express = require('express'),
     morgan  = require('morgan'),
+    app = express(),
   port = process.env.PORT || 8080;
 
   app.use(require('compression')());
