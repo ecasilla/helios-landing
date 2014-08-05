@@ -109,3 +109,5 @@ node_modules/compression
 node_modules/express
 node_modules/serve-static
 node_modules/morgan
+node_modules/body-parser
+node_modules/nodemailer

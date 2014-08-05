@@ -1,7 +1,7 @@
 {
   "name": "Helios-Marketing-Page",
   "version": "0.0.0",
-  "description": "",
+  "description": "The official Helios Landing Site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,14 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:ecasilla/helios-landing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ecasilla/helios-landing.git",
+    "email": "ecasilla@icloud.com"
   },
   "author": "Ernie Casilla",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.5.2",
     "compression": "^1.0.8",
     "express": "^4.4.4",
-    "serve-static": "^1.2.3",
-    "morgan": "^1.2.2"
+    "morgan": "^1.2.2",
+    "nodemailer": "^1.1.1"
   }
 }
