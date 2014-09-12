@@ -1819,6 +1819,18 @@ div .thumbnail{
 .accounts-icon{
   padding:10px;
 }
+.thumbsGrid li img{
+  height:125px;
+  width:125px;
+}
+
+.gridFullWIdthImg img{
+  height:400px;
+  width:400px;
+}
+#nordic{
+  height:110px;
+}
 
 /*Grid expand to overlay with links*/
 
