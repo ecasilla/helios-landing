@@ -1817,7 +1817,7 @@ div .thumbnail{
 }
 
 .accounts-icon{
-  float:left;
+  padding:10px;
 }
 
 /*Grid expand to overlay with links*/
