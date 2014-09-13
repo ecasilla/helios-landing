@@ -1823,7 +1823,10 @@ div .thumbnail{
   height:187px;
   width:125px;
 }
-
+#wil{
+  width:448px;
+  height:524px;
+}
 .gridFullWIdthImg img{
   height:600px;
   width:400px;
