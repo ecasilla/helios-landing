@@ -303,7 +303,7 @@ img {
 	outline: none;
 	background: none !important;
 }
-.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:focus {
 	outline: none;
 	background: none !important;
@@ -978,6 +978,13 @@ div .thumbnail{
   background-color: #345e9e;
   color: #fff;
 }
+
+.appsBlock img {
+  height: 181px;
+  width: 500px;
+}
+
+.tallerImg
 
 /*twitter block*/
 
@@ -1828,11 +1835,8 @@ div .thumbnail{
   height:524px;
 }
 .gridFullWIdthImg img{
-  height:600px;
+  height:500px;
   width:400px;
-}
-#nordic{
-  height:110px;
 }
 
 /*Grid expand to overlay with links*/
@@ -2073,10 +2077,10 @@ li.facebook {
   background: #4c66a4;
 }
 li.google-plus {
-  background: #d73d32; 
+  background: #d73d32;
 }
 li.tumblr {
-  background: #2c4762; 
+  background: #2c4762;
 }
 li.pinterest {
   background: #e63d45;
@@ -2167,11 +2171,31 @@ li.vk {
   font-weight: 300;
 }
 
-#details { font-family: "Quicksand", sans-serif; font-size: 60px; }
-#home-box > h2 { font-family: "Quicksand", sans-serif; font-weight: 400; line-height: 1.1; color: #75b1ae; }
-.price { font-size: 25px; float: left; }
-.pricing_header { background: none repeat scroll 0% 0% rgb(44, 62, 80); border-radius: 5px 5px 0px 0px; transition: background 0.4s ease-out 0s; }
-.pricing_header h2 { text-align:center; line-height: 25px; padding: 15px 0px; margin: 0px; font-family: "Quicksand", sans-serif; font-weight: 400; color: #75b1ae; }
+
+
+.accountsBlock h5{
+  padding: 20px 0 5px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-bottom: 50px;
+}
+
+#details {
+  font-family: "Quicksand", sans-serif; font-size: 60px;
+  }
+#home-box > h2 {
+  font-family: "Quicksand", sans-serif; font-weight: 400; line-height: 1.1; color: #75b1ae;
+  }
+.price {
+  font-size: 25px; float: left;
+  }
+.pricing_header {
+   background: none repeat scroll 0% 0% rgb(44, 62, 80); border-radius: 5px 5px 0px 0px; transition: background 0.4s ease-out 0s;
+   }
+.pricing_header h2 {
+  text-align:center; line-height: 25px; padding: 15px 0px; margin: 0px; font-family: "Quicksand", sans-serif; font-weight: 400; color: #75b1ae;
+  }
 .list-group-item:first-child { border-top-right-radius: 0px; border-top-left-radius: 0px; }
 .btn { float: right; font-family: "Quicksand", sans-serif; font-weight:500;}
 .off { text-decoration: line-through; color: rgb(86,86,86); }
@@ -2238,7 +2262,7 @@ li.vk {
   .catInfo p {
     font-size: 1.5em;
   }
-  
+
 }
 @media screen and (max-width: 960px) {
   .post-image-slider {

@@ -13,15 +13,15 @@ var express = require('express'),
   app.use(bodyParser.urlencoded({ extended: true }));
 
   app.post('/',function(req,res){
-  var name = req.body.name,
-      email = req.body.email,
-      message = req.body.message;
-      contact = {
-        name: name,
-        email: email,
-        message: message
-      }
-      console.log(contact);
+  // var name = req.body.name,
+  //     email = req.body.email,
+  //     message = req.body.message;
+  //     contact = {
+  //       name: name,
+  //       email: email,
+  //       message: message
+  //     }
+      console.log(req);
   });
   app.listen(port, function() {
     console.log('Server listening on localhost:'+port);
