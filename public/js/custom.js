@@ -1,12 +1,7 @@
-   /*
-     *Domino HTML5 Template v1.0
-     *Copyright 2014 8Guild.com
-     *All scripts for Domino HTML5 One Page Template
-     */
 
 jQuery(document).ready(function($) {
    'use strict';
-			
+
     var toValign = $('.toValign');
     $(window).on('load', function() {
         toValign.css('height', $(window).height() - 135);
@@ -62,7 +57,7 @@ jQuery(document).ready(function($) {
 
         $(document).keyup(function(e) {
 
-            if (e.keyCode == 27) { 
+            if (e.keyCode == 27) {
             $('.overlayDiv').removeClass('overlayOpened');
             $('body').css('overflow', 'visible');
             $('.thumbsOverlayInner').hide();
@@ -195,7 +190,7 @@ jQuery(document).ready(function($) {
             interval: 9000
         });
 
-        //Enable Touch / swipe events for carousel 
+        //Enable Touch / swipe events for carousel
         $(".carousel-inner").swipe({
             //Generic swipe handler for all directions
             swipeRight: function(event, direction, distance, duration, fingerCount) {
@@ -403,12 +398,3 @@ jQuery(document).ready(function($) {
             init: init
         };
     }(jQuery));
-
-
-
-
-
-
-
-
-

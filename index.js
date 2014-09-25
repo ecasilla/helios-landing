@@ -21,7 +21,7 @@ var express = require('express'),
   //       email: email,
   //       message: message
   //     }
-      console.log(req);
+      console.log(req.body);
   });
   app.listen(port, function() {
     console.log('Server listening on localhost:'+port);
