@@ -1,10 +1,10 @@
-var express = require('express'),
+var
+dotenv = require('dotenv'),
+express = require('express'),
 morgan  = require('morgan'),
 nodemailer = require('nodemailer'),
 bodyParser = require('body-parser'),
-dotenv = require('dotenv'),
 app = express(),
-dotenv.load();
 port = process.env.PORT || 8080;
 
 app.use(require('compression')());
@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/',function(req,res,next){
+  dotenv.load();
   var contact, smtpTrans, name, email,message;
 
   name = req.body.name
